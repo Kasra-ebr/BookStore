@@ -1,0 +1,45 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  overflow-x: scroll;
+  margin: 0px;
+  padding: 0px;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hiiden;
+}
+
+body {
+  max-width: 1390px;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: #232426;
+  min-width: 900px;
+}
+
+.input::placeholder {
+  color: #aaa;
+  opacity: 1;
+}
+.btn--primary {
+  margin-right: 18px;
+  font-size: 30px;
+  outline: none;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+button {
+  border: none;
+  padding: 0;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: transparent;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}

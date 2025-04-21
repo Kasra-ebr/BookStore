@@ -1,0 +1,99 @@
+{
+    "books": [
+    {
+      "title": "An Introduction to C & GUI Programming, 2nd Edition",
+      "subtitle": "",
+      "id": "1",
+      "price": "$12.94",
+      "image": "https://itbook.store/img/books/9781912047451.png",
+      "url": "https://itbook.store/books/9781912047451"
+    },
+    {
+      "title": "Snowflake: The Definitive Guide",
+      "subtitle": "Architecting, Designing, and Deploying on the Snowflake Data Cloud",
+     "id": "2",
+      "price": "$58.90", 
+      "image": "https://itbook.store/img/books/9781098103828.png",
+      "url": "https://itbook.store/books/9781098103828"
+    },
+    {
+      "title": "Python for Data Analysis, 3rd Edition",
+      "subtitle": "Data Wrangling with pandas, NumPy, and Jupyter",
+      "id": "3",
+      "price": "$34.96",
+      "image": "https://itbook.store/img/books/9781098104030.png",
+      "url": "https://itbook.store/books/9781098104030"
+    },
+    {
+      "title": "Reliable Machine Learning",
+      "subtitle": "Applying SRE Principles to ML in Production",
+      "id": "4",
+      "price": "$43.99",
+      "image": "https://itbook.store/img/books/9781098106225.png",
+      "url": "https://itbook.store/books/9781098106225"
+    },
+    {
+      "title": "Data Visualization with Python and JavaScript, 2nd Edition",
+      "subtitle": "Scrape, Clean, Explore, and Transform Your Data",
+      "id": "5",
+      "price": "$60.99",
+      "image": "https://itbook.store/img/books/9781098111878.png",
+      "url": "https://itbook.store/books/9781098111878"
+    },
+    {
+      "title": "Learning Microsoft Power BI",
+      "subtitle": "Transforming Data into Insights",
+      "id": "6",
+      "price": "$40.97",
+      "image": "https://itbook.store/img/books/9781098112844.png",
+      "url": "https://itbook.store/books/9781098112844"
+    },
+    {
+      "title": "C++ Software Design",
+      "subtitle": "Design Principles and Patterns for High-Quality Software",
+      "id": "7",
+      "price": "$48.99",
+      "image": "https://itbook.store/img/books/9781098113162.png",
+      "url": "https://itbook.store/books/9781098113162"
+    },
+    {
+      "title": "Terraform: Up and Running, 3rd Edition",
+      "subtitle": "Writing Infrastructure as Code",
+      "id": "8",
+      "price": "$41.99",
+      "image": "https://itbook.store/img/books/9781098116743.png",
+      "url": "https://itbook.store/books/9781098116743"
+    },
+    {
+      "title": "Flutter and Dart Cookbook",
+      "subtitle": "Developing Full-Stack Applications for the Cloud",
+      "id": "9",
+      "price": "$42.99",
+      "image": "https://itbook.store/img/books/9781098119515.png",
+      "url": "https://itbook.store/books/9781098119515"
+    },
+    {
+      "title": "Python Data Science Handbook, 2nd Edition",
+      "subtitle": "Essential Tools for Working with Data",
+      "id": "10",
+      "price": "$56.99",
+      "image": "https://itbook.store/img/books/9781098121228.png",
+      "url": "https://itbook.store/books/9781098121228"
+    },
+    {
+      "title": "Raspberry Pi Cookbook, 4th Edition",
+      "subtitle": "Software and Hardware Problems and Solutions",
+      "id": "11",
+      "price": "$14.99",
+      "image": "https://itbook.store/img/books/9781098130923.png",
+      "url": "https://itbook.store/books/9781098130923"
+    },
+    {
+      "title": "Azure Maps Using Blazor Succinctly",
+      "subtitle": "",
+      "id": "12",
+      "price": "$0.00",
+      "image": "https://itbook.store/img/books/9781642002263.png",
+      "url": "https://itbook.store/books/9781642002263"
+    }
+]}
