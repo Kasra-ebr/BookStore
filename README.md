@@ -103,6 +103,51 @@ Make sure `json-server` is running:
 npx json-server --watch db.json --port 3001
 ```
 
+## ✅ Functional Components using React Hooks
+
+- **Why it's separate**: This emphasizes that the project follows the modern React approach of using functional components instead of class-based components. **React Hooks** (like `useState`, `useEffect`, etc.) are used to handle state and side effects in functional components, which is a more declarative and concise way of writing React components.
+
+---
+
+## ✅ DRY Principles and Reusable UI
+
+- **Why it's separate**: This section highlights the importance of keeping the code **clean, maintainable**, and **efficient**. **DRY** stands for "Don't Repeat Yourself," a principle that encourages avoiding code duplication. Instead of repeating logic, reusable UI components are created, making the code more modular and easier to update or scale.
+
+---
+
+## ✅ Context API for Global State
+
+- **Why it's separate**: The **Context API** is a powerful tool for managing and sharing state across multiple components in a React application. Instead of passing props down through multiple layers of components (which can become cumbersome), the **Context API** is used to maintain a **global state** that can be accessed anywhere in the app. This is especially helpful for data like user authentication, app settings, or, in this case, **characters**, **episodes**, and **favourites**.
+
+---
+
+## ✅ Separation of UI and Logic
+
+- **Why it's separate**: This describes the **architectural** approach taken in the app. Keeping **UI** (view-related code) and **business logic** (data-fetching, state management) in separate parts of the app helps with **modularity**, **reusability**, and **testability**. For example:
+  - UI components only care about displaying data.
+  - Logic (e.g., fetching characters from an API, managing state) is abstracted away in custom hooks or context, making the codebase cleaner and more maintainable.
+
+---
+
+## ✅ Reusable Button, Modal, and Character Components
+
+- **Why it's separate**: This points to the **UI components** that have been made **reusable** to avoid redundancy in the code. For example:
+  - **Button** component: A reusable button that can be customized for any use case.
+  - **Modal** component: A general-purpose modal dialog that can display different content.
+  - **Character** component: A component designed to display character details.
+
+These components are **not hardcoded** for a specific part of the app. Instead, they can be used in various parts of the application by passing in different props.
+
+---
+
+## ✅ All State Lives in Context: Characters, Episodes, SelectedId, Search, Favourites
+
+- **Why it's separate**: This point explains the state management strategy used. By centralizing all state within the **Context**, you ensure that:
+  - Global state (like the list of **characters** and **episodes**) is accessible from any component without prop-drilling.
+  - The **selected character** and **search query** are managed in a single place.
+  - **Favourites** are stored and accessed in a consistent manner.
+
+Keeping all state in the **Context** makes it easier to manage and maintain the application’s state, especially as the app grows.
 ---
 
 ## 💻 Author
