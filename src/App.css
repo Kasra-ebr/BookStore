@@ -49,6 +49,7 @@
   display: flex;
   flex-direction: column;
   width: 83%;
+  font-size: 23px;
 }
 
 .book_item-info span {
@@ -108,27 +109,43 @@
 .favourites_card {
   border: none;
   background-color: #8D8AE3;
-  border-radius: 8px;
+  border-radius: 15px;
   width: 22vw;
   max-width: 23vw;
-  margin: 14px 2px;
+  margin: 14px 12px;
   display: flex;
   flex-direction: row-reverse;
   height: 9vh;
   overflow: hidden;
   justify-content: space-between;
 }
-
+.fav-container {
+  margin-left: 18px;
+  font-size: 29px;
+}
 .favourites_card img {
-  width: 60px;
+  width: 120px;
 }
 
 .favourites_card div h1 {
   font-weight: 500;
-  font-size: 22px;
+  font-size: 28px;
   font-family: 'Times New Roman', Times, serif;
 }
+.favourites_card h1 {
+  font-size: 19px;
+  font-weight: 400;
+  margin-right: auto;
+}
 
+.book_item:hover{
+  background-color: #5a5a5a;;
+  transition: background-color 0.3s ease;
+}
+.favourites_card:hover{
+  background-color: #b1afee;
+  transition: background-color 0.3s ease;
+}
 .empty {
   width: 100%;
   height: auto;
@@ -148,20 +165,19 @@
 }
 
 .btn--sec {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 66px;
+  background-color: #7779e8;
+  border-radius: 10px;
+  margin-left: 10px;
   background-color: #7779e8;
   border-radius: 10px;
   margin-left: 10px;
 }
-
-.btn--primary {
-  margin-right: 18px;
-  font-size: 30px;
-  outline: none;
-  cursor: pointer;
-  transition: color 0.3s ease;
+.btn--sec:hover{
+  background-color: #8e8fd6;
 }
+
 
 /* Media Queries */
 

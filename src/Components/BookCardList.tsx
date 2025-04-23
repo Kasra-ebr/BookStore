@@ -3,7 +3,7 @@ import { getBooks } from "../server/server";
 import { IBook } from "../Type/type";
 import "./../App.css";
 import { GoHeartFill } from "react-icons/go";
-import Button from "./Button";
+import Button from "./UI/Button";
 import { useBookContext } from "./Hooks/BookContextProvider";
 import Favourites from "./Favourites";
 

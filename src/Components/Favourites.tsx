@@ -7,13 +7,13 @@ function Favourites() {
   if (favourites?.length === 0) return;
 
   return (
-    <div>
-      <h1>Favourites :</h1>
+    <div >
+      <h1 className="fav-container">Favourites :</h1>
       <div>
         {favourites?.map((fav) => {
           return (
             <div className="favourites_card" key={fav.id}>
-              <p>{fav.title}</p>
+              <h1>{fav.title}</h1>
               <img src={fav.image} alt={fav.title} width="100" />
             </div>
           );

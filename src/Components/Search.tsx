@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import Input from './Input'
-import Button from './Button'
+import Input from './UI/Input'
+import Button from './UI/Button'
 import { IoSearchSharp } from "react-icons/io5";
 import "./../App.css"
 import { useBookContext } from './Hooks/BookContextProvider';
@@ -10,7 +10,7 @@ function Search() {
     <div className='search__container'>
         <Input
         name='search'
-        placeholder='Search ... '
+        placeholder='   Search ... '
         value={search}
         onChange={(e)=> setSearch(e.target.value)}
         className='input'
