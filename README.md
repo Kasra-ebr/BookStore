@@ -147,12 +147,12 @@ These components are **not hardcoded** for a specific part of the app. Instead, 
   - The **selected character** and **search query** are managed in a single place.
   - **Favourites** are stored and accessed in a consistent manner.
 
-Keeping all state in the **Context** makes it easier to manage and maintain the application’s state, especially as the app grows.
+
 ---
 
 ## 💻 Author
 
-**Your Name** - [GitHub](https://github.com/your-username)
+**Your Name** - [GitHub](https://github.com/Kasra-ebr)
 
 ---
 
