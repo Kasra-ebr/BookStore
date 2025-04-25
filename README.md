@@ -129,7 +129,7 @@ npx json-server --watch db.json --port 3001
 
 ---
 
-## ✅ Reusable Button, Modal, and Character Components
+## ✅ Reusable Button, Modal, and Book Components
 
 - **Why it's separate**: This points to the **UI components** that have been made **reusable** to avoid redundancy in the code. For example:
   - **Button** component: A reusable button that can be customized for any use case.
@@ -138,17 +138,7 @@ npx json-server --watch db.json --port 3001
 
 These components are **not hardcoded** for a specific part of the app. Instead, they can be used in various parts of the application by passing in different props.
 
----
 
-## ✅ All State Lives in Context: Characters, Episodes, SelectedId, Search, Favourites
-
-- **Why it's separate**: This point explains the state management strategy used. By centralizing all state within the **Context**, you ensure that:
-  - Global state (like the list of **characters** and **episodes**) is accessible from any component without prop-drilling.
-  - The **selected character** and **search query** are managed in a single place.
-  - **Favourites** are stored and accessed in a consistent manner.
-
-
----
 
 ## 💻 Author
 
