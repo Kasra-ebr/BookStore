@@ -1,5 +1,5 @@
 
-# 📚 Bookstore React App
+# 📚 Bookstore React App (Type Script)
 
 A modern, responsive bookstore application built with React, TypeScript, and Vite.
 Explore a collection of programming books with a sleek UI and powerful search functionality. Whether you're just browsing or curating a list of favourites, this app delivers a seamless, real-time experience
